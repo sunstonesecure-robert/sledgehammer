@@ -2,19 +2,19 @@ repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
   # The name of the repository. Changing this will rename the repository
-  name: project-template
+  name: sledgehammer
 
   # A short description of the repository that will show up on GitHub
-  description: CNCF Project Template
+  description: CNCF Project SLEDGEHammer for Stae, Local, Government Enterprise, and Healthcare
 
   # A URL with more information about the repository
-  homepage: https://cncf.io/projects
+  homepage: https://cncf.io/projects/sledgehammer
 
   # The branch used by default for pull requests and when the repository is cloned/viewed.
   default_branch: main
 
   # This repository is a template that others can use to start a new repository.
-  is_template: true
+  is_template: false
 
   # Collaborators: give specific users access to this repository.
   # see /governance/roles.md for details on write access policy
@@ -23,65 +23,25 @@ repository:
   # role. If there are questions, please contact one of the chairs.
 collaborators:
   # Chairs and Admin Help
-  - username: justaugustus
-    permission: admin
-
-  - username: jberkus
-    permission: admin
-
-  - username: parispittman
-    permission: admin
-
-  - username: idvoretskyi
-    permission: admin
-
-  - username: caniszczyk
-    permission: admin
-
-  - username: carolynvs
+  - username: sunstonesecure-robert
     permission: admin
 
   # Contributors
   # all permissions except admin
 
-  - username: mattklein123
-    permission: push
-
-  - username: thisisnotapril
-    permission: push
-
-  - username: karenhchu
-    permission: push
-
-  - username: dims
-    permission: push
-
-  - username: geekygirldawn
-    permission: push
-
-  - username: iennae
-    permission: push
-
-  # Current TOC liaisons
-  - username: mattfarina
-    permission: push
-  
-  - username: kgamanji
-    permission: push
-
 labels:
   - name: help-wanted
     color: ffff54
-  - name: good first issue
+  - name: tbd1
     color: ff8c00
-  - name: wg/governance
+  - name: governance
     color: 2f4f4f
-  - name: wg/maintainer
+  - name: tbd2
     color: 00ffff
-  - name: wg/contribgrowth
+  - name: contribgrowth
     color: ff00ff
-  - name: needs-toc-approval
-    description: Requires approval from the TOC before merging to main
+  - name: needs-security-review
+    description: Requires approval from the security reviewers before merging to main
     color: b60205
 
 # additional colors in this palette:
