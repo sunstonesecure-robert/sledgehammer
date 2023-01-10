@@ -204,6 +204,8 @@ The milestones and timeline anticipated:
     
 Bi-weekly status Zoom meetings for participating members and volunteers will be held in alternating US Pacific and US Eastern time zones, and ad hoc as needed for specific milestones.
 
+![SLEDGEHammer For Dummies](images/sledgehammer-xkcd.png)
+
 # Appendices
 
 ## CNCF Sandbox Application
