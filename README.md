@@ -211,3 +211,11 @@ Bi-weekly status Zoom meetings for participating members and volunteers will be 
 ## CNCF Sandbox Application
 
 [Please refer here for details](https://github.com/cncf/toc/blob/main/process/project_proposals.md). An issue will be created in the [Sandbox repo](https://github.com/cncf/sandbox).
+
+## OSCAL Support
+
+### Use Rego to generate OSCAL Component Definitions from the Kubernetes SBOM
+
+[Rego Playground Toy Example showing how to parse a JSON K8s SBOM and create component definitions in OSCAL for each](https://play.openpolicyagent.org/p/q36avVUjku)
+
+The example K8s SBOM in SPDX JSON format (using the LF converter tool from SPDX key/value format) is in the oscal dir.
