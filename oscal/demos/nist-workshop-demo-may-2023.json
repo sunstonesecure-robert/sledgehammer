@@ -1,0 +1,940 @@
+{
+    "componentsArray": [
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kubeadm",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kubeadm"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "a4c7a70d-f590-4b65-b547-76e0118fb148"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "mounter",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "mounter"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "00ae206c-aac1-4d7a-9696-47374bd99d2c"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kubectl-convert",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kubectl-convert"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "84ddb697-97e1-4866-9632-0021b3bdd3c9"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kube-scheduler",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kube-scheduler"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "94715be4-16c0-418d-8bde-e5518caa12a3"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kube-aggregator",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kube-aggregator"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "d7bcd8c6-236b-4dd5-b800-7c6e96cb1f01"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kube-proxy",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kube-proxy"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "2974ec37-1590-4e90-8da1-2d3b1dd79953"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kube-log-runner",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kube-log-runner"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "4a56a8f7-3ccf-48a1-9ab1-bca3d4ade690"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kubectl",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kubectl"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "909bf383-e218-410e-8fd2-8042d92ab8f2"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kubelet",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kubelet"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "6157ccc0-66f2-44a8-8ad9-d9c88d14ccd3"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kube-apiserver",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kube-apiserver"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "4da79b58-e4ff-4c0e-a682-3e8a7a479cbb"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "apiextensions-apiserver",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "apiextensions-apiserver"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "e0470387-fdd3-4974-9152-bd9bb6270a50"
+        },
+        {
+            "description": "Lookup description for each component from a database or API or lookup table",
+            "id": "kube-controller-manager",
+            "props": [
+                {
+                    "name": "virtual",
+                    "value": "yes"
+                },
+                {
+                    "name": "software-name",
+                    "value": "kube-controller-manager"
+                },
+                {
+                    "name": "version",
+                    "value": "Kubernetes Release v1.27.2"
+                },
+                {
+                    "name": "vendor-name",
+                    "value": "ACME CSP"
+                },
+                {
+                    "name": "patch-level",
+                    "value": "v1.27.2"
+                },
+                {
+                    "name": "allows-authenticated-scan",
+                    "value": "yes"
+                },
+                {
+                    "name": "baseline-configuration-name",
+                    "value": "DISA STIG"
+                },
+                {
+                    "name": "scan-type",
+                    "ns": "https://fedramp.gov/ns/oscal",
+                    "value": "infrastructure"
+                },
+                {
+                    "name": "function",
+                    "remarks": "Lookup description and optional remarks from database.",
+                    "value": "Lookup function for each component from database."
+                }
+            ],
+            "responsible-parties": [
+                {
+                    "party-id": "Agent Smith",
+                    "party-uuids": [
+                        "97a7369a-150e-43f1-b261-511f313d6b6c"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Agent Smith"
+                        }
+                    ],
+                    "role-id": "asset-owner"
+                },
+                {
+                    "party-id": "Neo",
+                    "party-uuids": [
+                        "7f7eb5f7-8a73-4a3a-855d-9a0cfd55c37a"
+                    ],
+                    "props": [
+                        {
+                            "name": "name",
+                            "value": "Neo"
+                        }
+                    ],
+                    "role-id": "asset-administrator"
+                }
+            ],
+            "status": {
+                "ns": "https://fedramp.gov/ns/oscal",
+                "state": "operational"
+            },
+            "type": "software",
+            "uuid": "ceb69618-6135-45dd-a68a-9d7798c86c17"
+        }
+    ]
+}
